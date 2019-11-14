@@ -4,17 +4,27 @@ Then connect HDMI and USB cables for mouse & keyboard.
 Finally connect power button with will turn on the red LED.
 
 # SET LOCALE AND TIME ZONE (Internationalization options)
-# Locale: en_US.UTF-8, Time Zone: US Central (Space bar for select/deselect)
 raspi-config
+
+Locale: en_US.UTF-8;
+Time Zone: US Central (Space bar for select/deselect)
+
 
 # UPDATE SYSTEM TIME WITH NTP
 date
+
 sudo apt-get update
+
 sudo apt-get install ntp
+
 sudo apt-get install ntpdate
+
 sudo service ntp stop
+
 sudo ntpdate pool.ntp.gov
+
 sudo service ntp start
+
 date
 
 # CLONE GITHUB REPOSITORY
