@@ -89,7 +89,7 @@ gpointer Serial_Read_Thread() {
             sprintf(c_voltage_value, "%1.3f", voltage_disp);
             g_mutex_unlock(mutex_to_protect_voltage_display);
           }
-          count = 0
+          count = 0;
         }
       }
     }
