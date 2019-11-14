@@ -29,10 +29,14 @@ date
 
 # CLONE GITHUB REPOSITORY
 sudo apt-get install git cmake gedit
+
 git clone https://github.com/ZakZadeh/cse2100.git
 
 # BUILD HELLO WORLD EXAMPLE
 cd hello_world
+
 cmake .
+
 make
+
 ./hello_world

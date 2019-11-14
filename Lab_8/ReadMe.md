@@ -1,7 +1,9 @@
 ## Lab 8
 
 run following commands;
+
 sudo apt-get install build-essential libgtk-3-dev
+
 sudo apt-get install tree glade
 
 # Task

@@ -10,5 +10,5 @@ Finally upload the code and run Teensy_Control executable
 You have to recreate Teensy_Control executable by using template in LED_Controller.
 First add the UI element in glade file in /src/teensy_control.glade
 (make sure that UI elements IDs are added in /include/global.h and /src/main.cpp.)
-Also make sure to add signals for buttons and sliders. 
+Also make sure to add signals for buttons and sliders.
 (for slider choose gtk_range->value_changed).

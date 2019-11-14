@@ -3,11 +3,17 @@
 Go to www.pjrc.com/teensy to download audrino v 1.6.11 then go to terminal.
 
 tar xf ~/Downloads/arduino-1.6.11-linuxarm.tar.xz -C ~/
+
 cd arduino-1.6.11/
+
 sudo ./install.sh
+
 cd cse2100
+
 cd teensy
+
 sudo sh install_teensyduino.sh
+
 sudo apt-get install usblib-0.1-4
 
 Then Run Arduino from Menu and open teensy_blink code.

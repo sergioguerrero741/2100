@@ -1,6 +1,7 @@
 ## Lab 6
 
 sudo apt-get install cutecom
+
 sudo cutecom
 
 Open serial_communication_variable_8bit.ino in Arduino, then compile and upload it.
