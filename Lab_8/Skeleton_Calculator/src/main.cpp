@@ -45,9 +45,6 @@ extern "C" void button_1_clicked(GtkWidget *p_wdgt, gpointer p_data )
   gtk_label_set_text(GTK_LABEL(gui_app->label_result),c_cc_value);
 }
 
-// $$$ Add Code Here for button 2 to 9 and 0
-// extern "C" void button_2_clicked(GtkWidget *p_wdgt, gpointer p_data )
-...
 
 extern "C" void button_2_clicked(GtkWidget *p_wdgt, gpointer p_data )
 {
@@ -60,13 +57,17 @@ extern "C" void button_2_clicked(GtkWidget *p_wdgt, gpointer p_data )
        a_d_value = atoi(a_cc_value);
        a_d_value*=10;
     }
-  a_d_value+=2;
+  a_d_value+=2;     // $$$ The Variable Part
   clear_f=false;
 
   sprintf(c_cc_value,"%d",a_d_value);
 
   gtk_label_set_text(GTK_LABEL(gui_app->label_result),c_cc_value);
 }
+
+// $$$ Add Code Here for button 3 to 9 and 0
+// extern "C" void button_2_clicked(GtkWidget *p_wdgt, gpointer p_data )
+// ...
 
 extern "C" void button_add_clicked(GtkWidget *p_wdgt, gpointer p_data )
 {

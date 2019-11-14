@@ -238,7 +238,6 @@ void loop()
                     // echo back the received packet payload
                     sendPacket(packetSize - PACKET_OVERHEAD_BYTES, buffer + 2);
                 }
-
                 // reset the count
                 count = 0;
             }
