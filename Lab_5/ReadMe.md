@@ -14,7 +14,7 @@ cd teensy
 
 sudo sh install_teensyduino.sh
 
-sudo apt-get install usblib-0.1-4
+sudo apt-get install libusb-0.1-4
 
 Then Run Arduino from Menu and open teensy_blink code.
 Then check in Tools that Teensy 3.2/3.1 is selected.
